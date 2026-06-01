@@ -6,7 +6,7 @@ main:
   - title: "Software"
     url: /software/
   - title: "Manuscript"
-    url: https://biorxiv.org
+    url: https://doi.org/10.64898/2026.05.31.729284
   - title: "Example datasets"
     url: /datasets/
   - title: "Contact"
