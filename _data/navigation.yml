@@ -7,5 +7,7 @@ main:
     url: /software/
   - title: "Manuscript"
     url: https://biorxiv.org
+  - title: "Example datasets"
+    url: /datasets/
   - title: "Contact"
     url: /contact/
