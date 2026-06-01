@@ -23,8 +23,8 @@ title_separator: " "
 email: jmanton@mrclmb.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Webpages for cleared-tissue direct-view oblique plane microscopy.
-baseurl: "/jmanton/ctdvopm" # the subpath of your site, e.g. /blog
-url: "https://www.mrc-lmb.cam.ac.uk" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://www.ctdvopm.org" # the base hostname & protocol for your site, e.g. http://example.com
 google_site_verification: ""
 twitter_username: 
 github_username:  
