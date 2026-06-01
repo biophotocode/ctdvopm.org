@@ -1,0 +1,11 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Hardware"
+    url: /hardware/
+  - title: "Software"
+    url: /software/
+  - title: "Manuscript"
+    url: https://biorxiv.org
+  - title: "Contact"
+    url: /contact/
