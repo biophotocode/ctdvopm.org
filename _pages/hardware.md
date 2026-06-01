@@ -7,7 +7,7 @@ permalink: "/hardware/"
 
 ## Interactive CAD model
 <script type="module"
-  src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
+  src="/assets/js/model-viewer.min.js">
 </script>
 <model-viewer
   src="/assets/models/ctdvopm.glb"
