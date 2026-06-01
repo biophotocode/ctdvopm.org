@@ -10,7 +10,7 @@ permalink: "/hardware/"
   src="/assets/js/model-viewer.min.js">
 </script>
 <model-viewer
-  src="https://www.mrc-lmb.cam.ac.uk/jmanton/ctdvopm/assets/models/ctdvopm_cad_from_step_recoloured.glb"
+  src="/assets/models/ctdvopm.glb"
   alt="CtDvOPM assembly"
   camera-controls
   environment-image="/assets/models/aircraft_workshop_01_1k.hdr"
