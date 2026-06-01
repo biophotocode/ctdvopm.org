@@ -13,7 +13,7 @@ permalink: "/hardware/"
   src="/assets/models/ctdvopm.glb"
   alt="CtDvOPM assembly"
   camera-controls
-  environment-image="https://modelviewer.dev/shared-assets/environments/aircraft_workshop_01_1k.hdr"
+  environment-image="/assets/models/aircraft_workshop_01_1k.hdr"
   shadow-intensity="0.75"
   exposure="1.20"
   camera-orbit="-23.59deg 74.46deg 1m"
