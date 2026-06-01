@@ -56,7 +56,7 @@ permalink: "/hardware/"
                   }
                 </style>
 <model-viewer
-  src="/jmanton/ctdvopm/assets/models/ctdvopm_cad_from_step_recoloured.glb"
+  src="/assets/models/ctdvopm_cad_from_step_recoloured.glb"
   alt="CtDvOPM assembly"
   camera-controls
   auto-rotate
