@@ -9,57 +9,10 @@ permalink: "/hardware/"
 <script type="module"
   src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
 </script>
-<style>
-                  .Hotspot {
-                    display: block;
-                    width: 10px;
-                    height: 10px;
-                    border-radius: 10px;
-                    border: none;
-                    background-color: white;
-                    box-sizing: border-box;
-                    pointer-events: none;
-                  }
-
-                  .hotspot[slot="hotspot-hand"] {
-                    --min-hotspot-opacity: 0;
-                    background-color: red;
-                  }
-
-                  .hotspot[slot="hotspot-foot"]:not([data-visible]) {
-                    background-color: transparent;
-                    border: 3px solid blue;
-                  }
-
-                  .HotspotAnnotation {
-                    background-color: #aaaaaa;
-                    position: absolute;
-                    transform: translate(10px, 10px);
-                    border-radius: 10px;
-                    padding: 10px;
-					font-size: 10pt;
-                  }
-
-                  model-viewer > .annotation {
-                    transform: translate(10px, 10px);
-                  }
-
-                  @media only screen and (max-width: 800px) {
-                    model-viewer > .annotation {
-                      transform: translate(4.5rem, 10px);
-                    }
-                  }
-
-                  /* This keeps child nodes hidden while the element loads */
-                  :not(:defined)>* {
-                    display: none;
-                  }
-                </style>
 <model-viewer
-  src="/assets/models/ctdvopm_cad_from_step_recoloured.glb"
+  src="/assets/models/ctdvopm.glb"
   alt="CtDvOPM assembly"
   camera-controls
-  auto-rotate
   environment-image="https://modelviewer.dev/shared-assets/environments/aircraft_workshop_01_1k.hdr"
   shadow-intensity="0.75"
   exposure="1.20"
@@ -67,30 +20,6 @@ permalink: "/hardware/"
   field-of-view="30deg"
   tone-mapping="neutral"
   style="width: 100%; height: 800px; background-color: #eeeeee;">
-  <button class="Hotspot" slot="hotspot-1" data-position="-0.00005372267801320718m 0.000443016980602921m 0.0010802868528548108m" data-normal="0m 0.9999999999999543m -3.0294627932906266e-7m" data-visibility-attribute="visible">
-        <div class="HotspotAnnotation">Sample</div>
-    </button><button class="Hotspot" slot="hotspot-2" data-position="-0.07378572112797153m -0.02558372964383801m 0.015190624025712158m" data-normal="-0.041604236643948564m 0.10701531886033085m 0.9933865355552671m" data-visibility-attribute="visible">
-        <div class="HotspotAnnotation">Excitation objective
-        </div>
-    </button><button class="Hotspot" slot="hotspot-3" data-position="0.0003014952041057485m -0.07296856336998764m 0.02297345097406156m" data-normal="0m 0.0009364992765888758m 0.9999995614844563m" data-visibility-attribute="visible">
-        <div class="HotspotAnnotation">Detection bi-telecentric lens
-        </div>
-    </button><button class="Hotspot" slot="hotspot-4" data-position="-0.23774299209692187m -0.18845629558547672m 0.05305363502502408m" data-normal="-1.343588610839583e-7m 0m 0.9999999999999911m" data-visibility-attribute="visible">
-        <div class="HotspotAnnotation">Multiline laser box
-        </div>
-    </button><button class="Hotspot" slot="hotspot-5" data-position="0.0018423257843881158m -0.2203499392426913m -0.09560167226434364m" data-normal="0.137071583619985m 0.0004455937518821916m -0.9905610442623503m" data-visibility-attribute="visible">
-        <div class="HotspotAnnotation">Camera</div>
-    </button><button class="Hotspot" slot="hotspot-6" data-position="-0.20645658311160583m 0.026007586443773288m 0.011690064356443389m" data-normal="-0.25433893386963846m 0.6542143811429241m 0.7122606617129973m" data-visibility-attribute="visible">
-        <div class="HotspotAnnotation">Reflective collimator</div>
-    </button><button class="Hotspot" slot="hotspot-7" data-position="-0.1965747044402782m -0.10217393545212249m -0.06717868335545052m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
-        <div class="HotspotAnnotation">Refractive index chock</div>
-    </button><button class="Hotspot" slot="hotspot-8" data-position="-0.28544414198159007m -0.02685871277083008m -0.07718246057629585m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
-        <div class="HotspotAnnotation">Light sheet angle adjustment</div>
-    </button><button class="Hotspot" slot="hotspot-9" data-position="0.16278796108708993m -0.009026600979268551m -0.03820093454942375m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
-        <div class="HotspotAnnotation">Z-stack stage motor</div>
-    </button><button class="Hotspot" slot="hotspot-10" data-position="0.10814594603465569m -0.10078160321775392m 0.022800597300563615m" data-normal="1.343588610839583e-7m 0m 0.9999999999999911m" data-visibility-attribute="visible">
-        <div class="HotspotAnnotation">Sample positioning tower</div>
-    </button>
 </model-viewer>
 
 
