@@ -11,6 +11,7 @@ permalink: "/hardware/"
 </script>
 <model-viewer
   src="/assets/models/ctdvopm.glb"
+  poster="/assets/images/ctdvopm_viewer.png"
   alt="CtDvOPM assembly"
   camera-controls
   environment-image="/assets/models/aircraft_workshop_01_1k.hdr"
